@@ -97,4 +97,8 @@ header{
     float: right;
     padding-bottom:  10px;
 }
-
+p{
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+}
