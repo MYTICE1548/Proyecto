@@ -214,3 +214,82 @@ article h1{
 .container-aside aside button:hover{
     opacity: 0.9;
 }
+
+/*Footer - pie de pagina*/
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f7f7f7;
+
+
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+
+    text-align: center;
+
+}
+
+.container-footer footer .logo-footer img{
+
+    width: 100px;
+
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background-color: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+footer .redes-footer .fa-facebook:hover{
+    background-color: #41579A;
+    color: #ffff;
+}
+
+footer .redes-footer .fa-cloud:hover{
+    background-color: #efefef;
+    color: #41579A;
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30,#e9712a,#D2313B,#AE4198,#7540A1,#5443a8);
+    color:#fff ;
+    
+}
+
+.container-footer .footer hr{
+    margin-top: 20px;
+    border:none;
+    height: 2px;
+    color: #7a7a7a7a;
+
+}
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500px;
+    
+}
