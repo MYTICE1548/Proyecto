@@ -85,6 +85,31 @@ header{
 .menu .text-menu-selected{
     color: #000
 }
+
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    padding: 10px;
+    font-size: 20px;
+    background: #eeeeeefa;
+    border-radius: 100%;
+    color: #787878;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+
+#icon-menu:hover{
+
+    opacity: 0.8;
+
+}
+
 /*PORTADA*/
 
 .container-cover{
@@ -291,5 +316,77 @@ footer .redes-footer .fa-instagram:hover{
     margin-top: 40px;
     color: #8e8e8e;
     font-weight: 500px;
-    
+
+}
+
+/*Responsive Design*/
+
+@media screen and (max-width: 1220px){
+
+    .header-content,
+    .container-contet,
+    .container-footer footer{
+        max-width: 1000px;
+        padding: 0 20px;
+
+
+
+    }
+}
+
+@media screen and (max-width: 1220px){
+
+    .container-contet{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    article{
+        box-shadow: 0 0 0 0;
+   }
+
+   .container-aside{
+    display: flex;
+    justify-content: center;
+   }
+
+   .container-aside aside{
+    max-width: 300px;
+    margin: 10px;
+   }
+}
+
+@media screen and (max-width: 800px){
+
+    .menu{
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 10px 0 20px -25px black;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+
+    }
+
+    .menu nav ul li{
+        max-width: 200px;
+        height: 50px;
+        justify-content: center;
+    }
+
+    .menu-selected:before{
+
+        width: 0px;
+
+    }
+
+    .menu nav ul li a{
+        width: 20px;
+    }
 }
