@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/9ccfc459f1.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../app.js"></script>
 </head>
 <body>
   
@@ -17,7 +18,7 @@
       <div class="logo">
         <h1>MY<b>TICE</b></h1>
       </div>
-      <div class="menu">
+      <div class="menu" id="show-menu">
         <nav>
           <ul>
             <li class="menu-selected"><a href="index.html" class="text-menu-selected"><b>INICIO</b></a></li>
@@ -38,77 +39,32 @@
     </div>
   </div>
   <div class="container-contet">
-    <article>
-      <section class="container-contet_sec">
-        <h1>TITULO DEL ARTICULO</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur2Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-     
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-     
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-     
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h1>TITULO DEL ARTICULO</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h1>TITULO DEL ARTICULO</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h1>TITULO DEL ARTICULO</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-      
-      <section class="container-contet_sec">
-        <h2>TITULO DEL ARTICULO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nemo beatae recusandae sunt voluptate, dolores explicabo natus voluptatem laborum rerum deleniti omnis cum aspernatur porro consectetur optio praesentium quis tenetur!</p>
-      </section>
-    </article>
+    <section>        
+      <article class="container-contet_sec">
+        <h2>¿QUÉ ES CIBERSEGURIDAD?</h2>
+        <p>Se entiende por ciberseguridad al conjunto de herramientas y practicas diseñadas con el
+          fin de proteger los datos o información confidencial que se genera y procesa a través de
+          los dispositivos electrónicos.</p>
+      </article>
+      <article class="container-contet_sec">
+        <h2>¿QUÉ ES UN INCIDENTE EN CIBERSEGURIDAD?</h2>
+        <p>Un incidente de seguridad es la ocurrencia de varios eventos que atenten contra la
+          integridad, confidencialidad y disponibilidad de la información en sistemas electrónicos</p>
+      </article>
+      <article class="container-contet_sec">
+        <h2>¿QUÉ ES UN EVENTO EN CIBERSEGURIDAD?</h2>
+        <p>Un evento de seguridad se describe como el acto de vulnerar los sistemas informáticos,
+          esto con un fin malicioso</p>
+      </article>
+      <article class="container-contet_sec">
+        <h2>DIFERENCIA ENTRE EVENTO E INCIDENTE EN CIBERSEGURIDAD</h2>
+        <p>La mayor diferencia es la forma de abordarlo, un evento es en si el acto de experimentar
+          una vulneración de los servicios y las redes, su denotación es mayormente neutral y no
+          supone tanto riesgo, por el contrario, un incidente ya es propiamente la declaración de
+          la falla en los sistemas de información, que lleva a un gran peligro por la filtración de la
+          información confidencial</p>
+      </article>
+    </section>
 
     <div class="container-aside">
       <aside>
@@ -149,8 +105,6 @@
     <h4>@Todos los derechos reservados</h4>
   </footer>
 </div>
-
-    
 
 
 </body>
