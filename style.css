@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Cinzel', serif; */
 }
 
 header{
@@ -23,7 +23,7 @@ header{
     display:flex;
     justify-content:space-between
 }
- 
+
 .logo{
     height:80px;
     display:flex;
@@ -31,10 +31,16 @@ header{
     align-items:center;
 }
 
+.logo h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .logo h1 b{
+    font-family: 'Source Sans Pro', sans-serif;
     color: #3e63b1;
 }
-
+h1,h2{
+    font-family: 'Cinzel', serif;
+}
 .menu{
     height:80px;
 }
@@ -205,14 +211,19 @@ section h1{
     margin-top: 20px;
     font-weight: 500;
     font-size: 40px;
+    
 }
 
 .container-contet_sec{
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
     color: #3e3e3f;
 }
-
+p{
+    margin-top: 12px;
+    margin-bottom: 1cm;
+    font-size: 22px;
+}
 /*contenedor de articulos aside*/
 .container-aside aside{
     width: 320px;
